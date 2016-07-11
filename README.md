@@ -23,7 +23,7 @@ The PLANTS database contains native and naturalized plants of the PLANTS Florist
                 <li> HI Hawaii</li>
                 <li> L48 Lower 48 States</li>
                 <li> NA North America (non-vascular use only)</li>
-                <li> NAV Navassa Island (the sole Caribbean member of the U.S. Minor Outlying Islands)</li>
+                <li> NAV Navassa Island</li>
                 <li> PB Pacific Basin</li>
                 <li> PR Puerto Rico</li>
                 <li> SPM St. Pierre and Miquelon (France)</li>
@@ -281,8 +281,7 @@ The PLANTS database contains native and naturalized plants of the PLANTS Florist
         <td>string</td>
         <td>:x:</td>
         <td>
-            <pre>
-            <strong>Code    Growth Habit</strong>
+            Code    Growth Habit
             FB	    Forb/herb
             GR	    Graminoid
             LC	    Lichenous
@@ -291,7 +290,6 @@ The PLANTS database contains native and naturalized plants of the PLANTS Florist
             SS	    Subshrub
             TR	    Tree
             VI	    Vine
-            </pre>
         </td>
     </tr>
     <tr valign="top">
@@ -607,14 +605,6 @@ The PLANTS database contains native and naturalized plants of the PLANTS Florist
                         list](http://www.aphis.usda.gov/ppq/weeds/weedlist2006.pdf "PLANTS is not responsible for the
                         content or availability of other Web sites.")_ (24 May 2006). USDA Animal and Plant Health
                         Inspection Service. Washington, DC. 2pp.
-                    </td>
-                </tr>
-                <tr>
-                    <td valign="top">[](noxious?rptType=Federal)</td>
-                    <td>USDA APHIS Plant Protection and Quarantine. 2005\. _[Federal domestic
-                        quarantines](http://nationalplantboard.org/docs/usdaqua.pdf "PLANTS is not responsible for the
-                        content or availability of other Web sites.")_ (24 May 2006). USDA APHIS Plant Protection and
-                        Quarantine. Washington, DC.
                     </td>
                 </tr>
                 <tr>
