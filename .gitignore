@@ -35,4 +35,5 @@ node_modules
 # Protect the Data
 *.csv
 
+temp-PasteBin
 .idea
