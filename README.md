@@ -601,84 +601,39 @@ The All Plants API database contains native and naturalized plants of the Plants
                 <tbody>
                 <tr>
                     <td valign="top">U.S.</td>
-                    <td>Plant Protection and Quarantine. 2006\. _[Federal noxious weed
-                        list](http://www.aphis.usda.gov/ppq/weeds/weedlist2006.pdf "PLANTS is not responsible for the
-                        content or availability of other Web sites.")_ (24 May 2006). USDA Animal and Plant Health
-                        Inspection Service. Washington, DC. 2pp.
-                    </td>
                 </tr>
                 <tr>
                     <td valign="top">STATE</td>
-                    <td>Assorted authors. _State noxious weed lists for 46 states_. State agriculture or natural
-                        resource departments.
-                    </td>
                 </tr>
                 <tr>
                     <td valign="top">Cal-IPC</td>
-                    <td>California Invasive Plant Council. 2006\. _[California Invasive Plant Inventory. Cal-IPC
-                        Publication 2006-02](http://www.cal-ipc.org/ip/inventory/index.php "PLANTS is not responsible
-                        for the content or availability of other Web sites.")_ (February 2007). California Invasive
-                        Plant Council. Berkeley, California.
-                    </td>
                 </tr>
                 <tr>
                     <td valign="top">FLEPPC</td>
-                    <td>Florida Exotic Pest Plant Council. 1999\. _[Invasive plant list](http://www.fleppc.org/ "PLANTS
-                        is not responsible for the content or availability of other Web sites.")_ (19 October 1999).
-                        Florida Exotic Pest Plant Council. Florida.
-                    </td>
                 </tr>
                 <tr>
                     <td valign="top">HEAR</td>
-                    <td>USDI, Geological Survey. 1999\. _[Information index for selected alien plants in
-                        Hawaii](http://www.hear.org "PLANTS is not responsible for the content or availability of other
-                        Web sites.")_ (20 October 2003). Hawaiian Ecosystems at Risk Project, Biological Resources
-                        Division, Haleakala Field Station. Makawao, Hawaii.
-                    </td>
                 </tr>
                 <tr>
                     <td valign="top">KY</td>
-                    <td>Haragan, P.D. 1991\. _Weeds of Kentucky and adjacent states: a field guide_. The University
-                        Press of Kentucky. Lexington, Kentucky. 278pp.
-                    </td>
                 </tr>
                 <tr>
                     <td valign="top">N'EAST</td>
-                    <td>Uva, R.H., J.C. Neal, & J.M. DiTomaso. 1997\. _Weeds of the Northeast_. Cornell University
-                        Press. Ithaca, New York. 397pp.
-                    </td>
                 </tr>
                 <tr>
                     <td valign="top">NE&GP</td>
-                    <td>Stubbendieck, J., G.Y. Friisoe, & M.R. Bolick. 1994\. _Weeds of Nebraska and the Great Plains_.
-                        Nebraska Department of Agriculture, Bureau of Plant Industry. Lincoln, Nebraska. 589pp.
-                    </td>
                 </tr>
                 <tr>
                     <td valign="top">SEEPPC</td>
-                    <td>Southeast Exotic Pest Plant Council. 1996\. _[Invasive exotic pest plants in
-                        Tennessee](http://www.tneppc.org/TNEPPC2004PlantList-8x11.pdf "PLANTS is not responsible for the
-                        content or availability of other Web sites.")_ (19 October 1999). Research Committee of the
-                        Tennessee Exotic Pest Plant Council. Tennessee.
-                    </td>
                 </tr>
                 <tr>
                     <td valign="top">SWSS</td>
-                    <td>Southern Weed Science Society. 1998\. _Weeds of the United States and Canada. CD-ROM_. Southern
-                        Weed Science Society. Champaign, Illinois.
-                    </td>
                 </tr>
                 <tr>
                     <td valign="top">WI</td>
-                    <td>Hoffman, R. & K. Kearns (eds.). 1997\. _Wisconsin manual of control recommendations for
-                        ecologically invasive plants_. Wisconsin Dept. Natural Resources. Madison, Wisconsin. 102pp.
-                    </td>
                 </tr>
                 <tr>
                     <td valign="top">WSWS</td>
-                    <td>Whitson, T.D. (ed.) et al. 1996\. _Weeds of the West_. Western Society of Weed Science in
-                        cooperation with Cooperative Extension Services, University of Wyoming. Laramie, Wyoming. 630pp.
-                    </td>
                 </tr>
                 </tbody>
             </table>
