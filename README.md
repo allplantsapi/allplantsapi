@@ -325,11 +325,11 @@ The PLANTS database contains native and naturalized plants of the PLANTS Florist
                 </tr>
                 <tr>
                     <th align="left" scope="row">NA</th>
-                    <td>North America (only non-vascular plants and lichens have Native Status given at this level</td>
+                    <td>North America</td>
                 </tr>
                 <tr>
                     <th align="left" scope="row">NAV</th>
-                    <td>Navassa Island (the sole Caribbean member of the U.S. Minor Outlying Islands)</td>
+                    <td>Navassa Island</td>
                 </tr>
                 <tr>
                     <th align="left" scope="row">PB</th>
