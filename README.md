@@ -1,9 +1,9 @@
-#All Plants API
-The PLANTS database contains native and naturalized plants of the PLANTS Floristic Area (PFA), which consists of North America and all additional U.S. territories and protectorates. Vascular plant distributions are mapped at the state and province level, and by U.S. county. Our checklists for the non-vascular mosses, liverworts, hornworts, and lichens cover all of North America north of Mexico; no additional distribution data are currently available for these plants. Checklist and plant distribution by island and island group for the U.S. territories and protectorates in the PFA Pacific Basin area are in preparation but are not yet included at PLANTS. The total number of PFA accepted taxa at the rank of binomial and below is about 38,000\. PLANTS also has about 5000 vascular plants that do not occur spontaneously (i.e., are not naturalized) in the PFA; these are selected if you choose Not in PLANTS Floristic Area. Most of these are of economic importance, and many of them are cultivated within the PFA.
+# All Plants API
+The All Plants API database contains native and naturalized plants of the Plants Floristic Area (PFA), which consists of North America and all additional U.S. territories and protectorates. Vascular plant distributions are mapped at the state and province level, and by U.S. county. Our checklists for the non-vascular mosses, liverworts, hornworts, and lichens cover all of North America north of Mexico; no additional distribution data are currently available for these plants. Checklist and plant distribution by island and island group for the U.S. territories and protectorates in the PFA Pacific Basin area are in preparation but are not yet included at PLANTS. The total number of PFA accepted taxa at the rank of binomial and below is about 38,000\. PLANTS also has about 5000 vascular plants that do not occur spontaneously (i.e., are not naturalized) in the PFA; these are selected if you choose Not in PLANTS Floristic Area. Most of these are of economic importance, and many of them are cultivated within the PFA.
 
 ##General Search Parameters
 
-<table width="80%" border="1" cellpadding="5" cellspacing="0">
+<table>
     <tr>
         <th>Name</th>
         <th>Data Type<br>(number, string, or boolean)</th>
@@ -22,11 +22,11 @@ The PLANTS database contains native and naturalized plants of the PLANTS Florist
                 <li> GL Greenland (Denmark)</li>
                 <li> HI Hawaii</li>
                 <li> L48 Lower 48 States</li>
-                <li> NA North America (non-vascular use only)</li>
-                <li> NAV Navassa Island (the sole Caribbean member of the U.S. Minor Outlying Islands)</li>
+                <li> NA North America</li>
+                <li> NAV Navassa Island</li>
                 <li> PB Pacific Basin</li>
                 <li> PR Puerto Rico</li>
-                <li> SPM St. Pierre and Miquelon (France)</li>
+                <li> SPM St. Pierre and Miquelon</li>
                 <li> VI U.S. Virgin Islands</li>
             </ul>
         </td>
@@ -281,9 +281,7 @@ The PLANTS database contains native and naturalized plants of the PLANTS Florist
         <td>string</td>
         <td>:x:</td>
         <td>
-            <table>
-            <thead>
-            <tr><td>Code</td><td>Growth Habit</td></tr>
+            Code    Growth Habit
             FB	    Forb/herb
             GR	    Graminoid
             LC	    Lichenous
@@ -292,8 +290,6 @@ The PLANTS database contains native and naturalized plants of the PLANTS Florist
             SS	    Subshrub
             TR	    Tree
             VI	    Vine
-            </thead>
-            </table>
         </td>
     </tr>
     <tr valign="top">
@@ -329,11 +325,11 @@ The PLANTS database contains native and naturalized plants of the PLANTS Florist
                 </tr>
                 <tr>
                     <th align="left" scope="row">NA</th>
-                    <td>North America (only non-vascular plants and lichens have Native Status given at this level</td>
+                    <td>North America</td>
                 </tr>
                 <tr>
                     <th align="left" scope="row">NAV</th>
-                    <td>Navassa Island (the sole Caribbean member of the U.S. Minor Outlying Islands)</td>
+                    <td>Navassa Island</td>
                 </tr>
                 <tr>
                     <th align="left" scope="row">PB</th>
@@ -376,11 +372,11 @@ The PLANTS database contains native and naturalized plants of the PLANTS Florist
                 </tr>
                 <tr>
                     <th align="left" scope="row">GP</th>
-                    <td>Garden persistent - persists around gardens and old habitations, not naturalized</td>
+                    <td>Garden persistent</td>
                 </tr>
                 <tr>
                     <th align="left" scope="row">GP?</th>
-                    <td>Probably Garden persistent - persists around gardens and old habitations, not naturalized</td>
+                    <td>Probably Garden persistent</td>
                 </tr>
                 <tr>
                     <th align="left" scope="row">I</th>
@@ -605,92 +601,39 @@ The PLANTS database contains native and naturalized plants of the PLANTS Florist
                 <tbody>
                 <tr>
                     <td valign="top">U.S.</td>
-                    <td>Plant Protection and Quarantine. 2006\. _[Federal noxious weed
-                        list](http://www.aphis.usda.gov/ppq/weeds/weedlist2006.pdf "PLANTS is not responsible for the
-                        content or availability of other Web sites.")_ (24 May 2006). USDA Animal and Plant Health
-                        Inspection Service. Washington, DC. 2pp.
-                    </td>
-                </tr>
-                <tr>
-                    <td valign="top">[](noxious?rptType=Federal)</td>
-                    <td>USDA APHIS Plant Protection and Quarantine. 2005\. _[Federal domestic
-                        quarantines](http://nationalplantboard.org/docs/usdaqua.pdf "PLANTS is not responsible for the
-                        content or availability of other Web sites.")_ (24 May 2006). USDA APHIS Plant Protection and
-                        Quarantine. Washington, DC.
-                    </td>
                 </tr>
                 <tr>
                     <td valign="top">STATE</td>
-                    <td>Assorted authors. _State noxious weed lists for 46 states_. State agriculture or natural
-                        resource departments.
-                    </td>
                 </tr>
                 <tr>
                     <td valign="top">Cal-IPC</td>
-                    <td>California Invasive Plant Council. 2006\. _[California Invasive Plant Inventory. Cal-IPC
-                        Publication 2006-02](http://www.cal-ipc.org/ip/inventory/index.php "PLANTS is not responsible
-                        for the content or availability of other Web sites.")_ (February 2007). California Invasive
-                        Plant Council. Berkeley, California.
-                    </td>
                 </tr>
                 <tr>
                     <td valign="top">FLEPPC</td>
-                    <td>Florida Exotic Pest Plant Council. 1999\. _[Invasive plant list](http://www.fleppc.org/ "PLANTS
-                        is not responsible for the content or availability of other Web sites.")_ (19 October 1999).
-                        Florida Exotic Pest Plant Council. Florida.
-                    </td>
                 </tr>
                 <tr>
                     <td valign="top">HEAR</td>
-                    <td>USDI, Geological Survey. 1999\. _[Information index for selected alien plants in
-                        Hawaii](http://www.hear.org "PLANTS is not responsible for the content or availability of other
-                        Web sites.")_ (20 October 2003). Hawaiian Ecosystems at Risk Project, Biological Resources
-                        Division, Haleakala Field Station. Makawao, Hawaii.
-                    </td>
                 </tr>
                 <tr>
                     <td valign="top">KY</td>
-                    <td>Haragan, P.D. 1991\. _Weeds of Kentucky and adjacent states: a field guide_. The University
-                        Press of Kentucky. Lexington, Kentucky. 278pp.
-                    </td>
                 </tr>
                 <tr>
                     <td valign="top">N'EAST</td>
-                    <td>Uva, R.H., J.C. Neal, & J.M. DiTomaso. 1997\. _Weeds of the Northeast_. Cornell University
-                        Press. Ithaca, New York. 397pp.
-                    </td>
                 </tr>
                 <tr>
                     <td valign="top">NE&GP</td>
-                    <td>Stubbendieck, J., G.Y. Friisoe, & M.R. Bolick. 1994\. _Weeds of Nebraska and the Great Plains_.
-                        Nebraska Department of Agriculture, Bureau of Plant Industry. Lincoln, Nebraska. 589pp.
-                    </td>
                 </tr>
                 <tr>
                     <td valign="top">SEEPPC</td>
-                    <td>Southeast Exotic Pest Plant Council. 1996\. _[Invasive exotic pest plants in
-                        Tennessee](http://www.tneppc.org/TNEPPC2004PlantList-8x11.pdf "PLANTS is not responsible for the
-                        content or availability of other Web sites.")_ (19 October 1999). Research Committee of the
-                        Tennessee Exotic Pest Plant Council. Tennessee.
-                    </td>
                 </tr>
                 <tr>
                     <td valign="top">SWSS</td>
-                    <td>Southern Weed Science Society. 1998\. _Weeds of the United States and Canada. CD-ROM_. Southern
-                        Weed Science Society. Champaign, Illinois.
-                    </td>
                 </tr>
                 <tr>
                     <td valign="top">WI</td>
-                    <td>Hoffman, R. & K. Kearns (eds.). 1997\. _Wisconsin manual of control recommendations for
-                        ecologically invasive plants_. Wisconsin Dept. Natural Resources. Madison, Wisconsin. 102pp.
-                    </td>
                 </tr>
                 <tr>
                     <td valign="top">WSWS</td>
-                    <td>Whitson, T.D. (ed.) et al. 1996\. _Weeds of the West_. Western Society of Weed Science in
-                        cooperation with Cooperative Extension Services, University of Wyoming. Laramie, Wyoming. 630pp.
-                    </td>
                 </tr>
                 </tbody>
             </table>
