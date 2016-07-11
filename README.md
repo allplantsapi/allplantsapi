@@ -3,7 +3,7 @@ The PLANTS database contains native and naturalized plants of the PLANTS Florist
 
 ##General Search Parameters
 
-<table width="80%" border="1" cellpadding="5" cellspacing="0">
+<table>
     <tr>
         <th>Name</th>
         <th>Data Type<br>(number, string, or boolean)</th>
