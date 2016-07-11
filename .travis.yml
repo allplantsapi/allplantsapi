@@ -1,0 +1,15 @@
+#set up a node environment
+#"node" uses latest and greatest you can also specify via .nvmrc
+language: node_js
+node_js:
+  - "node"
+  - "6"
+  - "6.1"
+  - "5.11"
+  - "0.6"
+  - "iojs"
+
+  #GULP Setup running default gulpfile.js
+  before_script:
+    - npm install -g gulp
+  script: gulp

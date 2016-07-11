@@ -1,4 +1,4 @@
-# allplantsapi
+#All Plants API
 The PLANTS database contains native and naturalized plants of the PLANTS Floristic Area (PFA), which consists of North America and all additional U.S. territories and protectorates. Vascular plant distributions are mapped at the state and province level, and by U.S. county. Our checklists for the non-vascular mosses, liverworts, hornworts, and lichens cover all of North America north of Mexico; no additional distribution data are currently available for these plants. Checklist and plant distribution by island and island group for the U.S. territories and protectorates in the PFA Pacific Basin area are in preparation but are not yet included at PLANTS. The total number of PFA accepted taxa at the rank of binomial and below is about 38,000\. PLANTS also has about 5000 vascular plants that do not occur spontaneously (i.e., are not naturalized) in the PFA; these are selected if you choose Not in PLANTS Floristic Area. Most of these are of economic importance, and many of them are cultivated within the PFA.
 
 ##General Search Parameters
@@ -281,8 +281,9 @@ The PLANTS database contains native and naturalized plants of the PLANTS Florist
         <td>string</td>
         <td>:x:</td>
         <td>
-            <pre>
-            <strong>Code    Growth Habit</strong>
+            <table>
+            <thead>
+            <tr><td>Code</td><td>Growth Habit</td></tr>
             FB	    Forb/herb
             GR	    Graminoid
             LC	    Lichenous
@@ -291,7 +292,8 @@ The PLANTS database contains native and naturalized plants of the PLANTS Florist
             SS	    Subshrub
             TR	    Tree
             VI	    Vine
-            </pre>
+            </thead>
+            </table>
         </td>
     </tr>
     <tr valign="top">
