@@ -1,0 +1,21 @@
+{
+  "name": "allplantsapi",
+  "description": "This project aims to be a one stop shop for all your plant information",
+  "main": "index.js",
+  "authors": [
+    "John Michelin"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "plants",
+    "api"
+  ],
+  "homepage": "https://github.com/jmichelin/allplantsapi",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
